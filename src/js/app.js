@@ -1,4 +1,5 @@
 import create from './createField';
+import createTable from './tableDOM';
 
 const n = 4; // how many cells in a row
 create(n);
@@ -15,3 +16,11 @@ setInterval(() => {
     i = y;
   }
 }, 1000);
+
+
+//  2 work!
+
+createTable();
+const tr = document.getElementsByTagName('tr');
+ 
+
