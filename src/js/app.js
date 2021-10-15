@@ -21,6 +21,6 @@ setInterval(() => {
 //  2 work!
 
 createTable();
-const tr = document.getElementsByTagName('tr');
+
  
 
