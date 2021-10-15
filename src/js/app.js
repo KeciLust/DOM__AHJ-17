@@ -1,5 +1,4 @@
-import create from './createField.js';
-import createTable from './tableDOM.js';
+import create from './createField';
 
 const n = 4; // how many cells in a row
 create(n);
@@ -16,7 +15,3 @@ setInterval(() => {
     i = y;
   }
 }, 1000);
-
-//  2 work!
-
-createTable();
